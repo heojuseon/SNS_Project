@@ -1,4 +1,10 @@
 <resources>
     <!--    <string name="app_name">SNS_Project</string>-->
+<!--    //동적 텍스트(엑티비티 화면에서 텍스트 입력 가능(xml 화면에서는 %s로 표시))-->
     <string name="underlined_dynamic_text"><u>%s</u></string>
+
+
+
+<!--    //정적 텍스트(여기서 텍스트 문자를 입력할수있다.(I\'m underlined 자리에 입력))-->
+<!--    <string name="underlined_text"><u>I\'m underlined</u></string>-->
 </resources>
