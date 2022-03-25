@@ -7,7 +7,7 @@
     android:orientation="vertical"
 
     android:background="@drawable/gradient"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -77,7 +77,7 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/lgnbtn"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:background="@drawable/buttonclick"

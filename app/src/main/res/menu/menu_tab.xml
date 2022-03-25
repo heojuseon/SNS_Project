@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab1map"
+        android:icon="@drawable/tab1_img"
+        android:title="헬스장 위치" />
+    <item
+        android:id="@+id/tab2training"
+        android:icon="@drawable/tab2_img"
+        android:title="트레이닝" />
+    <item
+        android:id="@+id/tab3sns"
+        android:icon="@drawable/tab3_img"
+        android:title="게시판" />
+    <item
+        android:id="@+id/tab4setting"
+        android:icon="@drawable/tab4_img"
+        android:title="설정" />
+</menu>

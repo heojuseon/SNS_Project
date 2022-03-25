@@ -7,8 +7,16 @@
         <entry key="app/src/main/res/drawable/buttonclick.xml" value="0.222" />
         <entry key="app/src/main/res/drawable/buttonclick_style.xml" value="0.222" />
         <entry key="app/src/main/res/drawable/gradient.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/gradient2.xml" value="0.222" />
         <entry key="app/src/main/res/drawable/login_button_shape.xml" value="0.222" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/activity_main_fragment.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/fragment_tab1__map.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/fragment_tab2__training.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/fragment_tab3__sns.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/fragment_tab4__setting.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/menu/menu_tab.xml" value="0.2828125" />
       </map>
     </option>
   </component>

@@ -2,6 +2,7 @@ package com.example.sns_project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.util.Log;
@@ -9,10 +10,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-import java.util.function.LongFunction;
+public class LoginActivity extends AppCompatActivity {
 
-public class MainActivity extends AppCompatActivity {
-
+    Button loginbtn;
     Button button;
     ImageButton kakaobtn;
     ImageButton naverbtn;
@@ -21,7 +21,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
+
+        loginbtn = findViewById(R.id.lgnbtn);
+        loginbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity_Fragment.class);
+                startActivity(intent);
+            }
+        });
+
 
         button = findViewById(R.id.button3);
         button.setPaintFlags(button.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG); //버튼(텍스트) 아래 밑줄 설정
