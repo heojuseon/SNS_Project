@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SNS_Project" >
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCzmawqBqx01jL2nzmdCH4urzpW5ygclmM" />
+
         <activity
             android:name=".MainActivity_Fragment"
             android:exported="false" />

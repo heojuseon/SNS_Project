@@ -29,7 +29,8 @@ public class MainActivity_Fragment extends AppCompatActivity {
         tab3_sns = new Tab3_Sns();
         tab4_setting = new Tab4_Setting();
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, tab1_map);
+        //.commit()을 사용해야 처음 시작할때 1번탭 부터 시작한다.
+        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, tab1_map).commit();
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomnavi);
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
