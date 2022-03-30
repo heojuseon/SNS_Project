@@ -10,11 +10,7 @@ import android.view.ViewGroup;
 
 import com.example.sns_project.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link Tab2_Training#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class Tab2_Training extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
